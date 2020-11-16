@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcultor.css">
+    <title>simple calculators</title>
+</head>
+<body class="out-box" >
+    <div class="box-making">
+        
+        <div class="input-box">
+            <input class="first-display" id="history" placeholder="calculator" type="text" readonly><br>
+            <input class="second-display" id="display" type="text" readonly >
+        </div>
+        <div class="number-box">
+          <div >
+              <input type="button"class="operation" value="AC"onclick="AC()">
+              <input type="button"class="operation" value="C"onclick="back()">
+              <input type="button"class="operation" value="+"onclick="enter('+')">
+              <input type="button"class="operation" value="-"onclick="enter('-')">
+          </div> 
+          <div>
+              <input type="button" class="button-size" value="9"onclick="enter(value)">
+              <input type="button" class="button-size" value="8"onclick="enter(value)">
+              <input type="button"class="button-size" value="7"onclick="enter(value)">
+              <input type="button"class="operation" value="%"onclick="percent()">
+          </div>
+          <div>
+              <input type="button"class="button-size" value="6" onclick="enter(value)">
+              <input type="button"class="button-size" value="5"onclick="enter(value)">
+              <input type="button"class="button-size" value="4"onclick="enter(value)">
+              <input type="button"class="operation" value="*"onclick="enter('*')">
+          </div>
+          <div>
+              <input type="button"class="button-size" value="3"onclick="enter(value)">
+              <input type="button"class="button-size" value="2"onclick="enter(value)">
+              <input type="button"class="button-size" value="1"onclick="enter(value)">
+              <input type="button"class="operation" value="/"onclick="enter('/')">
+          </div>
+          <div>
+              <input type="button" class="button-size" value="0"onclick="enter(value)">
+              <input type="button" class="button-size" value="."onclick="enter(value)">
+              <input type="button" class="equal" value="="onclick="equal()">
+          </div>
+        </div>
+    </div>
+    <script src="calculator.js">
+    </script>
+</body>

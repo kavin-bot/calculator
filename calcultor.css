@@ -1,0 +1,66 @@
+.out-box{
+    background-color:hsl(60, 57%, 43%) ;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.box-making{
+    background-color:rgb(241, 117, 179);
+    height: 420px;
+    width: 300px;
+    border: 5px black;
+}
+.input-box{
+    border:double 5px pink;
+    border-radius: 10px;
+    
+}
+.first-display{
+    border: white;
+    height: 35px;
+    width: 285px;
+    text-align: right;
+    font-size: large;
+}
+    
+.second-display{
+    border: white;
+    height: 35px;
+    width: 285px;
+    text-align: right;
+    font-size:x-large;
+    
+}
+
+.button-size{
+    width:70px;
+    height: 65px;
+    border-radius: 2px;
+    background-color:rgb(241, 117, 179);
+    font-size: x-large;
+    padding: 4px;
+}
+.button-size:hover{
+    width:70px;
+    height: 70px;
+    border-radius:50%;
+    background-color:pink;
+}
+.operation{
+    width:70px;
+    height: 65px;
+    border-radius:75%;
+    font-size: xx-large;
+    background-color:rgb(136, 38, 68) ;
+
+}
+.operation:hover{
+    width:75px;
+    height: 65px;
+    border-radius: 2px;
+}
+.equal{
+    width: 145px;
+    height:50px;
+    background-color:gray;
+    font-size: xx-large;
+}
